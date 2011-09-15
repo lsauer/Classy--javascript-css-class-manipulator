@@ -1,0 +1,9 @@
+/**
+HTMLElement css-class setter/getter Object
+
+Description: Conveniently set or remove classes from DOM Elements
+
+HTML Elements can have several classes, separated by space ' '. The rightmost css-class takes precedence
+
+author: L.Sauer 2011, MIT License
+*/		
