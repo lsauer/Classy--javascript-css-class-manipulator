@@ -1,4 +1,3 @@
-
 /**
 HTMLElement css-class setter/getter Object
 HTML Elements can have several classes, separated by space ' '. The rightmost css-class takes precedence
@@ -6,7 +5,7 @@ author: L.Sauer 2011, MIT License
 */		
 Classy = function(el){
 	//constructor
-	if(el.constructor === ''.constructor){ //I dislike 'typeof'
+	if(el && el.constructor === ''.constructor){ //I dislike 'typeof'
 		el = document.getElementsByClassName(el)[0];
 	}
 	//private shared
